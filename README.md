@@ -10,7 +10,9 @@
 6. Activate the virtual environment by running the `activate` command.
 7. Go back to the previous directory using `cd ..`.
 8. Install all the libraries required for the project.
-9. Set up the config file `.ebextensions` folder with `custom_ami or any name.conf`.
+9. Run & Test your project
+10. Freeze(Generate) the requirements.txt file
+11. Set up the config file `.ebextensions` folder with `custom_ami or any name.conf`.
 
 
 
