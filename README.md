@@ -10,15 +10,8 @@
 6. Activate the virtual environment by running the `activate` command.
 7. Go back to the previous directory using `cd ..`.
 8. Install all the libraries required for the project.
-9. Set up the config file `.ebextensions` folder with `anything.conf`.
-10. Initialize Elastic Beanstalk with the following command:
-    ```
-    eb init lastytry --platform "Python 3.11" --region ca-central-1
-    ```
-11. Create an Elastic Beanstalk environment with the following command:
-    ```
-    eb create lastytry --timeout 60
-    ```
+9. Set up the config file `.ebextensions` folder with `custom_ami or any name.conf`.
+
 
 Add the following content to the file `.ebextensions\custom_ami.config`:
 
@@ -52,6 +45,17 @@ sudo python3.11 setup.py install
 
 cd /
 ```
+
+10. Initialize Elastic Beanstalk with the following command:
+    ```
+    eb init lastytry --platform "Python 3.11" --region ca-central-1
+    ```
+11. Create an Elastic Beanstalk environment with the following command:
+    ```
+    eb create lastytry --timeout 60
+    ```
+
+
 
 ## Nginx Configuration
 
