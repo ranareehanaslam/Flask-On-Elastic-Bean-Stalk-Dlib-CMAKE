@@ -13,6 +13,19 @@
 9. Set up the config file `.ebextensions` folder with `custom_ami or any name.conf`.
 
 
+
+## Nginx Configuration to Fix 413 Request Entity Too Large nginx
+
+Add the following line to the `.platform\nginx\conf.d\elasticbeanstalk\application.conf` file:
+
+```
+client_max_body_size 50M;
+```
+
+
+
+
+
 Add the following content to the file `.ebextensions\custom_ami.config`:
 
 ## Deployment Script
@@ -57,10 +70,4 @@ cd /
 
 
 
-## Nginx Configuration
 
-Add the following line to the `.platform\nginx\conf.d\elasticbeanstalk\application.conf` file:
-
-```
-client_max_body_size 50M;
-```
