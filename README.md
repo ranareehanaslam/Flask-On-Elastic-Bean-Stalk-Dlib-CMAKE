@@ -61,11 +61,13 @@ sudo python3.11 setup.py install
 cd /
 ```
 
-10. Initialize Elastic Beanstalk with the following command:
+10. Install AWS CLI
+11. Install pip install awsebcli
+12. Initialize Elastic Beanstalk with the following command:
     ```
     eb init lastytry --platform "Python 3.11" --region ca-central-1
     ```
-11. Create an Elastic Beanstalk environment with the following command:
+13. Create an Elastic Beanstalk environment with the following command:
     ```
     eb create lastytry --timeout 60
     ```
