@@ -65,7 +65,7 @@ cd /
 11. Install pip install awsebcli
 12. Initialize Elastic Beanstalk with the following command:
     ```
-    eb init lastytry --platform "Python 3.11" --region ca-central-1
+    eb init lastytry --platform "Python 3.11" --region eu-north-1
     ```
 13. Create an Elastic Beanstalk environment with the following command:
     ```
