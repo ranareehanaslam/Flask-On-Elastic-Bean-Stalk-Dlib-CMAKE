@@ -1,5 +1,7 @@
 # Flask On Elastic Beanstalk with Dlib and CMake C++ Libraries
 
+
+
 ## Steps to Follow
 
 1. Open the command prompt as an administrator.
@@ -14,7 +16,9 @@
 10. Freeze(Generate) the requirements.txt file
 11. Set up the config file `.ebextensions` folder with `custom_ami or any name.conf`.
 
+## Video Tutorial
 
+Here's a [video tutorial](https://youtu.be/kqxGE_pIgUY) that walks you through the process.
 
 ## Nginx Configuration to Fix 413 Request Entity Too Large nginx
 
